@@ -1,0 +1,54 @@
+@import "../../../styles/variables";
+
+.container {
+  margin: 0 auto;
+  width: $container-width;
+}
+
+.page-navigation-login ul, .page-navigation-nav ul {
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-navigation-login li {
+
+  list-style: none;
+  margin-right: 10px;
+}
+
+.page-navigation-login {
+  margin: 50px 0;
+}
+
+.page-navigation-login a {
+  text-decoration: none;
+  color: $font-color-second;
+  padding: 10px 5px;
+  border: 1px solid transparent;
+
+    &:hover {
+     border: 1px solid $page-color-second;
+    }
+}
+
+.page-navigation-nav li {
+
+  list-style: none;
+
+}
+
+.page-navigation-nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: $font-color-main;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid $font-color-main;
+
+  }
+
+}
+

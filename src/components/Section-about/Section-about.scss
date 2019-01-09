@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.section-about {
+  height: 910px;
+  background: $page-color-main;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-about-image-box {
+  width: 50%;
+  height: 90%;
+  background: url("../../assets/about.jpg");
+}
