@@ -1,0 +1,39 @@
+.section-about {
+  height: 910px;
+  background: #EBEBEB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.section-about-text-box {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto; }
+
+.section-about-text-box h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #3C3C3C; }
+
+.section-about-text-box div {
+  width: 253px;
+  height: 33px;
+  margin-top: 40px;
+  background-image: url("../../assets/decoration.png");
+  margin-bottom: 20px; }
+
+.section-about-text-box p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #3C3C3C; }
+
+.section-about-image-box {
+  width: 50%;
+  height: 90%;
+  background: url("../../assets/about.jpg"); }
+
+/*# sourceMappingURL=Section-about.css.map */
