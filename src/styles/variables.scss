@@ -6,6 +6,10 @@ $font-color-second: #A1A1A1;
 $page-color-main: #EBEBEB;
 $page-color-second:#FACA12;
 
+$page-font-big: 2.5rem;
+$page-font-medium: 1.5rem;
+$page-font-small: 1rem;
+
 @mixin decoration() {
   width: 253px;
   height: 33px;
@@ -22,6 +26,7 @@ $page-color-second:#FACA12;
   background: #ffffff;
   border: 1px solid $font-color-main;
 }
+
 
 
 

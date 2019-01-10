@@ -9,7 +9,7 @@ export default class About extends React.Component {
                 <div className="section-about-text-box">
                     <h1>o nas</h1>
                     <div></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur culpa dicta dolore</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur culpa dicta dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur culpa dicta dolore</p>
                 </div>
                 <div className="section-about-image-box"></div>
             </div>

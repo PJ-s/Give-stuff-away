@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header from "./components/Header/Header";
 import HowToDo from "./components/Section-how-to-do/SectionHowToDo"
 import About from "./components/Section-about/Section-about";
+import Foundations from "./components/Section-foundations/foundations";
+import Contact from "./components/Contact/contact";
 
 
 class App extends Component {
@@ -11,6 +13,8 @@ class App extends Component {
         <Header/>
         <HowToDo/>
         <About/>
+        <Foundations/>
+        <Contact/>
       </div>
     );
   }
