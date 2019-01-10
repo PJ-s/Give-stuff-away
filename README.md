@@ -1,4 +1,4 @@
-# Give it away
+# Give stuff away
 
 Website for giving unnecessary stuff for free. 
 Additional project to work on after finishing bootcamp course.
