@@ -1,0 +1,70 @@
+@import "../../../styles/variables";
+
+.contact-container {
+  display: flex;
+  background-image: url("../../../assets/footer_bg_img.jpg");
+  background-size: cover;
+  height: 956px;
+  justify-content: flex-end;
+}
+
+.contact-form-box {
+  margin: 200px 100px;
+  width: 450px;
+}
+
+.contact-form-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form-header h1 {
+  font-size: $page-font-big;
+  color: $font-color-main;
+}
+
+.contact-form-header div {
+  background-image: url("../../../assets/decoration.png");
+  @include decoration;
+}
+
+.contact-form-box h3 {
+  color: $font-color-main;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: $page-font-small;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.contact-form-box .inputs-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.inputs-box input, .contact-form-box input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid $font-color-main;
+  background: none;
+  font-size: $page-font-small;
+}
+
+.contact-form-box .input-big {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.contact-form-box button {
+  display: block;
+  margin: 25px auto;
+  background: none;
+  width: 100px;
+  height: 40px;
+  border: 1px solid $font-color-main;
+}
+
+
