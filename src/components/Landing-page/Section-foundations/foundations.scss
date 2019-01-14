@@ -1,10 +1,93 @@
 @import "../../../styles/variables";
 
-.section-foundations-box {
+.foundations-main-container {
   height: 1050px;
 }
 
-.section-foundations-header h1 {
+.foundations-header {
+  margin: 50px auto;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foundations-header p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: $font-color-main;
+  width: 80%;
+}
+.foundations-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.foundations-title h1 {
   font-size: $page-font-big;
   color: $font-color-main;
+}
+
+.foundations-title div {
+  @include decoration;
+  background-image: url("../../../assets/decoration.png");
+}
+
+.foundations-elements-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.foundations-elements-nav li {
+  font-size: $page-font-medium;
+  color: $font-color-main;
+  text-align: center;
+  width: 33%;
+  padding: 10px;
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid $font-color-main;
+    cursor: pointer;
+  }
+}
+
+.foundations-elements-nav li:first-of-type {
+  padding: 20px 10px;
+}
+
+.foundations-list-container, .organizations-list-container, .collections-list-container {
+  width: 1275px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foundations-list-container li, .organizations-list-container li, .collections-list-container li {
+  margin-bottom: 30px;
+}
+
+.foundations-list-container h3, .organizations-list-container h3, .collections-list-container h3 {
+  font-size: $page-font-medium;
+  color: $font-color-main;
+  margin-bottom: 10px;
+}
+
+.decoration {
+  width: 450px;
+  height: 1px;
+  display: block;
+  background: $font-color-second;
+  margin-top: 30px;
+}
+
+.elements-descriptions h3 {
+  color: #ffffff;
+}
+
+.elements-descriptions p {
+  text-align: right;
 }

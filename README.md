@@ -1,11 +1,20 @@
 # Give stuff away
 
-Website for giving unnecessary stuff for free. 
-Additional project to work on after finishing bootcamp course.
+Website for giving unnecessary stuff for free. I used React and Sass.
+
+## Run
+
+yarn install
+
+yarn start
+
+### Done
+
+Landing page, page scroll.
 
 ### In progress:
 
-Landing page, login and regestration, form.
+Logged in view.
 
 
 

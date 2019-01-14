@@ -16,16 +16,16 @@ export default class Navigation extends React.Component {
                 </div>
                 <div className="page-navigation-nav">
                     <ul>
-                        <Link activeClass="active" to="HowToDo" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                        <Link activeClass="active">
                             <li>Start</li>
                         </Link>
-                        <Link activeClass="active" to="HowToDo" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                        <Link activeClass="active" to="HowToDo" spy={true} smooth={true} offset={-200} duration={500} onSetActive={this.handleSetActive}>
                             <li>O co chodzi?</li>
                         </Link>
-                        <Link activeClass="active" to="About" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                        <Link activeClass="active" to="About" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
                             <li>O nas</li>
                         </Link>
-                        <Link activeClass="active" to="Foundations" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
+                        <Link activeClass="active" to="Foundations" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
                             <li>Fundacje i organizacje</li>
                         </Link>
                         <Link activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
