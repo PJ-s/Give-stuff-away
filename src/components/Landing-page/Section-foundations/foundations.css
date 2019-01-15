@@ -1,0 +1,79 @@
+.foundations-main-container {
+  height: 1050px; }
+
+.foundations-header {
+  margin: 50px auto;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.foundations-header p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #3C3C3C;
+  width: 80%; }
+
+.foundations-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px; }
+
+.foundations-title h1 {
+  font-size: 2.5rem;
+  color: #3C3C3C; }
+
+.foundations-title div {
+  width: 253px;
+  height: 33px;
+  margin-top: 40px;
+  background-image: url("../../../assets/decoration.png"); }
+
+.foundations-elements-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px; }
+
+.foundations-elements-nav li {
+  font-size: 1.5rem;
+  color: #3C3C3C;
+  text-align: center;
+  width: 33%;
+  padding: 10px;
+  border: 1px solid transparent; }
+  .foundations-elements-nav li:hover {
+    border: 1px solid #3C3C3C;
+    cursor: pointer; }
+
+.foundations-elements-nav li:first-of-type {
+  padding: 20px 10px; }
+
+.foundations-list-container, .organizations-list-container, .collections-list-container {
+  width: 1275px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between; }
+
+.foundations-list-container li, .organizations-list-container li, .collections-list-container li {
+  margin-bottom: 30px; }
+
+.foundations-list-container h3, .organizations-list-container h3, .collections-list-container h3 {
+  font-size: 1.5rem;
+  color: #3C3C3C;
+  margin-bottom: 10px; }
+
+.decoration {
+  width: 450px;
+  height: 1px;
+  display: block;
+  background: #A1A1A1;
+  margin-top: 30px; }
+
+.elements-descriptions h3 {
+  color: #ffffff; }
+
+.elements-descriptions p {
+  text-align: right; }
+
+/*# sourceMappingURL=foundations.css.map */

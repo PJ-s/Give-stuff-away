@@ -27,6 +27,14 @@ $page-font-small: 1rem;
   border: 1px solid $font-color-main;
 }
 
+@mixin no-select-effects {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 
 
 

@@ -5,23 +5,23 @@
   width: $container-width;
 }
 
-.page-navigation-login ul, .page-navigation-nav ul {
+.page-login ul, .page-nav ul {
 
   display: flex;
   justify-content: flex-end;
 }
 
-.page-navigation-login li {
+.page-login li {
 
   list-style: none;
   margin-right: 10px;
 }
 
-.page-navigation-login {
+.page-login {
   margin: 50px 0;
 }
 
-.page-navigation-login a {
+.page-login a {
   text-decoration: none;
   color: $font-color-second;
   padding: 10px 5px;
@@ -32,11 +32,11 @@
     }
 }
 
-.page-navigation-nav li {
+.page-nav li {
   list-style: none;
 }
 
-.page-navigation-nav a {
+.page-nav a {
   font-size: 1.2em;
   text-decoration: none;
   color: $font-color-main;
@@ -47,6 +47,5 @@
     border: 1px solid $font-color-main;
     cursor: pointer;
   }
-
 }
 

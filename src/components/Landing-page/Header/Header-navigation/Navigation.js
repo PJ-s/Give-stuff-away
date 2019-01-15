@@ -8,13 +8,13 @@ export default class Navigation extends React.Component {
     render() {
         return (
             <div className="container">
-                <div className="page-navigation-login">
+                <div className="page-login">
                     <ul>
                         <li><a href="">Zaloguj</a></li>
                         <li><a href="">Załóż konto</a></li>
                     </ul>
                 </div>
-                <div className="page-navigation-nav">
+                <div className="page-nav">
                     <ul>
                         <Link activeClass="active">
                             <li>Start</li>
