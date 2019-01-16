@@ -1,6 +1,6 @@
 @import "../../../styles/variables";
 
-.container {
+.logged-view-container {
   width: 100%;
   height: 800px;
   @include no-select-effects;
@@ -55,7 +55,7 @@
 }
 
 .logged-view-dropdown-menu li {
-  font-size: $page-font-small;
+  font-size: 1.2rem;
   text-align: right;
   margin: 10px;
   background: #ffffff;
@@ -80,7 +80,7 @@
 }
 
 .logged-view-call-to-action {
-  width: 700px;
+  width: 650px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -109,19 +109,42 @@
 
 .logged-view-boxes {
   display: flex;
+  margin-top: 30px;
 }
 
 .logged-view-boxes div {
-  width: 100px;
-  height: 100px;
+  width: 135px;
+  height: 135px;
   border: 1px solid $font-color-main;
   transform: rotate(45deg);
+  position: relative;
   margin: 20px;
+}
+
+.logged-view-boxes div p:last-of-type {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 45px;
+  left: -6px;
+  color: $font-color-main;
+  font-size: $page-font-medium;
+  text-align: center;
+}
+
+.logged-view-boxes div p:first-of-type {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: $page-font-medium;
+  color: $font-color-main;
+
+
 }
 
 .info-bar {
   background: $page-color-second;
-  padding: 40px 100px;
+  padding: 40px 300px;
 }
 
 .info-bar h1 {

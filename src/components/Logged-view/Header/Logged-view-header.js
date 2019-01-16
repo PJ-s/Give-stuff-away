@@ -25,7 +25,7 @@ export default class LoggedViewHeader extends React.Component {
     render() {
         return (
             <div>
-                <div className="container">
+                <div className="logged-view-container">
                     <div className="logged-view-login">
                         <ul>
                             <li>
@@ -97,20 +97,32 @@ export default class LoggedViewHeader extends React.Component {
                         <div className="logged-view-boxes">
                             <div>
                                 <p>
+                                    1
+                                </p>
+                                <p>
                                     Wybierz rzeczy
                                 </p>
                             </div>
                             <div>
+                                <p>
+                                    2
+                                </p>
                                 <p>
                                     Spakuj je w worki
                                 </p>
                             </div>
                             <div>
                                 <p>
+                                    3
+                                </p>
+                                <p>
                                     Wybierz fundację
                                 </p>
                             </div>
                             <div>
+                                <p>
+                                    4
+                                </p>
                                 <p>
                                     Zamów kuriera
                                 </p>
