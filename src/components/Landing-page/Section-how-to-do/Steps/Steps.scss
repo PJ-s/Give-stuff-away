@@ -34,7 +34,7 @@
 }
 
 .section-steps-elements span {
-  font-size: 3em;
+  font-size: 3rem;
   color: $font-color-main;
   margin-bottom: 20px;
 }
@@ -47,10 +47,26 @@
   margin: auto 0;
 }
 
+.section-steps-elements div:nth-of-type(3) {
+  margin-top: 57px;
+}
+
+.section-steps-elements div:nth-of-type(4) {
+  margin-top: 60px;
+}
+
 .section-steps-elements p {
   color: $font-color-main;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.section-steps-elements div:nth-of-type(2)>p:first-of-type, div:nth-of-type(1)>p:first-of-type {
+  margin-bottom: 40px;
+}
+
+.section-steps-elements div:nth-of-type(4)>p:first-of-type {
+  margin-bottom: 30px;
 }
 
 .section-steps-elements div>div:last-of-type {

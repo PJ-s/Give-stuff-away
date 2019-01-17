@@ -1,6 +1,6 @@
 import React from "react";
 import "./Logged-view-header.scss";
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from "react-router-dom"
 
 
 export default class LoggedViewHeader extends React.Component {
@@ -56,7 +56,7 @@ export default class LoggedViewHeader extends React.Component {
                     </div>
                     <div className="logged-view-nav">
                         <ul>
-                            <Link activeClass="active">
+                            <Link to="/">
                                 <li>
                                     Start
                                 </li>

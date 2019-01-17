@@ -9,8 +9,8 @@
 }
 
 .contact-form-box {
-  margin: 200px 100px;
-  width: 450px;
+  margin: 200px 50px;
+  width: 500px;
 }
 
 .contact-form-header {
@@ -33,7 +33,7 @@
   color: $font-color-main;
   margin-top: 50px;
   margin-bottom: 25px;
-  font-size: $page-font-small;
+  font-size: 1.2rem;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -50,7 +50,7 @@
   border-right: none;
   border-bottom: 1px solid $font-color-main;
   background: none;
-  font-size: $page-font-small;
+  font-size: 1.2rem;
 }
 
 .contact-form-box .input-big {
@@ -62,9 +62,11 @@
   display: block;
   margin: 25px auto;
   background: none;
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 60px;
   border: 1px solid $font-color-main;
+  font-size: 1.2rem;
+  color: $font-color-main;
 }
 
 

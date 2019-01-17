@@ -2,7 +2,6 @@ import React from "react";
 import "./contact.scss";
 import {Element} from "react-scroll";
 
-
 export default class Contact extends React.Component {
    constructor(props) {
    super(props);

@@ -27,30 +27,15 @@
 }
 
 .form-one label {
-  display: block;
-  position: relative;
-  padding-left: 60px;
-  margin-bottom: 50px;
-  cursor: pointer;
-  font-size: 22px;
-  user-select: none;
+  @include form-label;
 }
 
 .form-one input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+  @include form-input;
 }
 
 .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 40px;
-  width: 40px;
-  border: 1px solid $font-color-main;
+  @include form-checkmark;
 }
 
 .checkmark:after {
@@ -64,21 +49,9 @@
 }
 
 .form-one .checkmark:after {
-  left: 15px;
-  top: 5px;
-  width: 10px;
-  height: 20px;
-  border: solid $font-color-main;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
+  @include form-checkmark-indicator;
 }
 
 .form-one button {
-  color: $font-color-main;
-  font-size: $page-font-medium;
-  background: none;
-  width: 150px;
-  height: 75px;
-  border: 1px solid $font-color-main;
-  margin-top: 40px;
+  @include form-button;
 }
