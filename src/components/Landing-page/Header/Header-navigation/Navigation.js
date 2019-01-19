@@ -11,42 +11,44 @@ export default class Navigation extends React.Component {
                 <div className="page-login">
                     <ul>
                         <li>
-                            <Link to="/loggedView">
+                            <Link to="/LogInPanel">
                                 Zaloguj
                             </Link>
                         </li>
-                        <li><a href="">
-                            Załóż konto
-                        </a></li>
+                        <li>
+                            <a>
+                                Załóż konto
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="page-nav">
                     <ul>
-                        <Link activeClass="active" to="/">
-                            <li>
+                        <li>
+                            <Link activeClass="active" to="/">
                                 Start
-                            </li>
-                        </Link>
-                        <Scroll.Link activeClass="active" to="HowToDo" spy={true} smooth={true} offset={-200} duration={500} onSetActive={this.handleSetActive}>
-                            <li>
+                            </Link>
+                        </li>
+                        <li>
+                            <Scroll.Link activeClass="active" to="HowToDo" spy={true} smooth={true} offset={-200} duration={500} onSetActive={this.handleSetActive}>
                                 O co chodzi?
-                            </li>
-                        </Scroll.Link>
-                        <Scroll.Link activeClass="active" to="About" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
-                            <li>
+                            </Scroll.Link>
+                        </li>
+                        <li>
+                            <Scroll.Link activeClass="active" to="About" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
                                 O nas
-                            </li>
-                        </Scroll.Link>
-                        <Scroll.Link activeClass="active" to="Foundations" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
-                            <li>
+                            </Scroll.Link>
+                        </li>
+                        <li>
+                            <Scroll.Link activeClass="active" to="Foundations" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
                                 Fundacje i organizacje
-                            </li>
-                        </Scroll.Link>
-                        <Scroll.Link activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
-                            <li>
+                            </Scroll.Link>
+                        </li>
+                        <li>
+                            <Scroll.Link activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
                                 Kontakt
-                            </li>
-                        </Scroll.Link>
+                            </Scroll.Link>
+                        </li>
                     </ul>
                 </div>
             </div>

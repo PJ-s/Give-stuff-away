@@ -11,8 +11,8 @@ export default class Contact extends React.Component {
      return (
          <Element name="Contact">
              <div className="contact-container">
-                    <div className="contact-form-box">
-                        <div className="contact-form-header">
+                    <div className="form-box">
+                        <div className="form-header">
                             <h1>Skontaktuj się z nami</h1>
                             <div></div>
                         </div>

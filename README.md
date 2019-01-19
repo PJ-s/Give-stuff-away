@@ -1,6 +1,6 @@
 # Give stuff away
 
-Website for giving unnecessary stuff for free. I used React and Sass.
+Website for giving unnecessary stuff for free. I'm using React and Sass.
 
 ## Run
 
@@ -10,11 +10,11 @@ yarn start
 
 ### Done
 
-Landing page, page scroll.
+Landing page, logged-in view, login panel, page-scroll, routing.
 
 ### In progress:
 
-Logged in view.
+Registrtion panel, forms.
 
 
 

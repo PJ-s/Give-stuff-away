@@ -1,6 +1,7 @@
 import React from "react";
 import "./Logged-view-header.scss";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import Scroll from "react-scroll";
 
 
 export default class LoggedViewHeader extends React.Component {
@@ -29,7 +30,7 @@ export default class LoggedViewHeader extends React.Component {
                     <div className="logged-view-login">
                         <ul>
                             <li>
-                                    Witaj Agata
+                                Witaj Agata
                             </li>
                             <span onClick={this.showDropdownMenu} className= "far fa-sun">
 
@@ -56,31 +57,31 @@ export default class LoggedViewHeader extends React.Component {
                     </div>
                     <div className="logged-view-nav">
                         <ul>
-                            <Link to="/">
-                                <li>
+                            <li>
+                                <Link to="/">
                                     Start
-                                </li>
-                            </Link>
-                            <Link activeClass="active" to="HowToDo" spy={true} smooth={true} offset={-200} duration={500} onSetActive={this.handleSetActive}>
-                                <li>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to ="/HowToDo">
                                     O co chodzi?
-                                </li>
-                            </Link>
-                            <Link activeClass="active" to="About" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
-                                <li>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/About">
                                     O nas
-                                </li>
-                            </Link>
-                            <Link activeClass="active" to="Foundations" spy={true} smooth={true} offset={-50} duration={500} onSetActive={this.handleSetActive}>
-                                <li>
-                                    Fundacje i organizacje
-                                </li>
-                            </Link>
-                            <Link style={{visibility: this.state.dropdownMenu ? "hidden" : "visible"}} activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
-                                <li>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="Foundations">
+                                    Fundaje i organizacje
+                                </Link>
+                            </li>
+                            <li>
+                                <Scroll.Link style={{visibility: this.state.dropdownMenu ? "hidden" : "visible"}} activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>
                                     Kontakt
-                                </li>
-                            </Link>
+                                </Scroll.Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="logged-view-call-to-action">
