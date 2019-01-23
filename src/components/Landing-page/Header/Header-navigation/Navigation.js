@@ -22,7 +22,7 @@ export default class Navigation extends React.Component {
                         </li>
                     </ul>
                 </div>
-                <div className="page-nav">
+                <nav className="page-nav">
                     <ul>
                         <li>
                             <Link activeClass="active" to="/">
@@ -50,7 +50,7 @@ export default class Navigation extends React.Component {
                             </Scroll.Link>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
         )
     }

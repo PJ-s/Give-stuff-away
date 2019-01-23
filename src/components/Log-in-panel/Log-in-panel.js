@@ -25,7 +25,7 @@ export default class LogInPanel extends React.Component {
                         </li>
                     </ul>
                 </div>
-                <div className="page-nav">
+                <nav className="page-nav">
                     <ul>
                         <li>
                             <Link to="/">
@@ -53,7 +53,7 @@ export default class LogInPanel extends React.Component {
                             </Link>
                         </li>
                     </ul>
-                </div>
+                </nav>
                 <div className="form-box log-in-box">
                     <div className="form-header">
                         <h1>

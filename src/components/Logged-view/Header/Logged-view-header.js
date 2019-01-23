@@ -55,7 +55,7 @@ export default class LoggedViewHeader extends React.Component {
                             </span>
                         </ul>
                     </div>
-                    <div className="logged-view-nav">
+                    <nav className="logged-view-nav">
                         <ul>
                             <li>
                                 <Link to="/">
@@ -83,7 +83,7 @@ export default class LoggedViewHeader extends React.Component {
                                 </Scroll.Link>
                             </li>
                         </ul>
-                    </div>
+                    </nav>
                     <div className="logged-view-call-to-action">
                         <h1>
                             Oddaj rzeczy, których już nie chcesz

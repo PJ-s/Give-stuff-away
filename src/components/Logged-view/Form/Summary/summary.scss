@@ -1,0 +1,14 @@
+@import "../../../../styles/variables";
+
+.summary-container {
+  margin: 50px 200px;
+}
+
+.summary-container h1 {
+  font-size: $page-font-big;
+  margin-bottom: 40px;
+}
+
+.summary-container header {
+  font-size: $page-font-medium;
+}

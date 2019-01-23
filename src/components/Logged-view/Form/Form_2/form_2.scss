@@ -1,0 +1,35 @@
+@import "../../../../styles/variables";
+
+.form2-container {
+  background-position-x: 1200px;
+  background-position-y: 300px;
+}
+
+.form2-header h1 {
+  font-size: 2rem;
+  margin-top: 80px;
+}
+
+.form2-select-box {
+  margin: 40px 300px;
+  display: flex;
+  width: 500px;
+}
+
+.form2-select-box p {
+  padding-right: 20px;
+  font-size: $page-font-medium;
+  color: $font-color-main;
+}
+
+.form2-select-box select {
+  width: 200px;
+  text-align: center;
+  font-size: $page-font-medium;
+  color: $font-color-main;
+  text-indent: 90px;
+}
+
+.form2-select-box button {
+  @include form-button()
+}

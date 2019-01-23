@@ -11,12 +11,11 @@ import HowToDo from "./components/Landing-page/Section-how-to-do/SectionHowToDo"
 import About from "./components/Landing-page/Section-about/Section-about";
 import Foundations from "./components/Landing-page/Section-foundations/foundations";
 import LogInPanel from "./components/Log-in-panel/Log-in-panel";
+import Form2 from "./components/Logged-view/Form/Form_2/form_2";
+import Summary from "./components/Logged-view/Form/Summary/summary";
 
 export default class App extends React.Component {
-    constructor(props) {
-        super(props);
 
-    }
     render(){
         return (<HashRouter>
                 <>
@@ -27,6 +26,8 @@ export default class App extends React.Component {
                     <Route path="/Contact" component={Contact}/>
                     <Route path="/LogInPanel" component={LogInPanel}/>
                     <Route path="/loggedView" component={LoggedView}/>
+                    <Route path="/form2" component={Form2}/>
+                    <Route path="/summary/:items"  component={Summary}/>
                 </>
             </HashRouter>
         )
