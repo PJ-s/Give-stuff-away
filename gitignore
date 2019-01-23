@@ -6,6 +6,9 @@
 *.sass.map
 *.scss.map
 
+/.idea
+*.iml
+
 # dependencies
 /node_modules
 /.pnp
