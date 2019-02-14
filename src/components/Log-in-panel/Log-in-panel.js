@@ -1,5 +1,5 @@
 import React from "react";
-import "./Log-in-panel.scss";
+import "../../sass/partials/log-in-panel/_log-in-panel.scss";
 import { Link } from "react-router-dom";
 
 

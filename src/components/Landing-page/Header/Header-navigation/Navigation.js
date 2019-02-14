@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navigation.scss";
+import "../../../../sass/partials/landing-page/_navigation.scss";
 import {Link} from "react-router-dom";
 import Scroll from "react-scroll";
 

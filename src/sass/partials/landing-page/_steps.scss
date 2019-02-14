@@ -1,4 +1,5 @@
-@import "../../../../styles/variables";
+@import "../../modules/all";
+@import "../../modules/colors";
 
 .section-steps-box {
   height: 750px;
@@ -22,7 +23,7 @@
 
 .section-steps-header div {
   @include decoration;
-  background-image: url("../../../../assets/decoration.png");
+  background-image: url("../../../assets/decoration.png");
 }
 
 .section-steps-elements {

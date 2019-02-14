@@ -1,5 +1,5 @@
 import React from "react";
-import "./Logged-view-header.scss";
+import "../../../sass/partials/logged-view/_logged-view-header.scss";
 import { Link } from "react-router-dom";
 import Scroll from "react-scroll";
 

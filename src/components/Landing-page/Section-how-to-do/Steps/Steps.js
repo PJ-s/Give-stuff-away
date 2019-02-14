@@ -1,5 +1,5 @@
 import React from "react";
-import "./Steps.scss";
+import "../../../../sass/partials/landing-page/_steps.scss";
 
 export default class Steps extends React.Component {
 

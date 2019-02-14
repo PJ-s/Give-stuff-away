@@ -1,5 +1,5 @@
 import React from "react";
-import "./Logged-view-form_1.scss";
+import "../../../sass/partials/logged-view/_app-form-1.scss";
 import {Link} from "react-router-dom";
 
 export default class LoggedViewForm_1 extends React.Component {

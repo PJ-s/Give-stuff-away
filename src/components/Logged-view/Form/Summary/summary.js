@@ -1,5 +1,5 @@
 import React from "react";
-import "./summary.scss";
+import "../../../../sass/partials/logged-view/_logged-view-summary.scss";
 
 
 export default class Summary extends React.Component {

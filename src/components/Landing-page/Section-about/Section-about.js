@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section-about.scss";
+import "../../../sass/partials/landing-page/_about.scss";
 import {Element} from "react-scroll";
 
 export default class About extends React.Component {

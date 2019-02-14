@@ -1,11 +1,5 @@
 $container-width: 1600px;
 
-$font-color-main: #3C3C3C;
-$font-color-second: #A1A1A1;
-
-$page-color-main: #EBEBEB;
-$page-color-second:#FACA12;
-
 $page-font-big: 2.5rem;
 $page-font-medium: 1.5rem;
 $page-font-small: 1.2rem;
@@ -28,11 +22,11 @@ $page-font-small: 1.2rem;
 }
 
 @mixin no-select-effects() {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @mixin form-label() {
@@ -81,8 +75,3 @@ $page-font-small: 1.2rem;
   border: 1px solid $font-color-main;
   margin-top: 40px;
 }
-
-
-
-
-

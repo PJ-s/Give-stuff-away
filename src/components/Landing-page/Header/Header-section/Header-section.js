@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header-section.scss";
+import "../../../../sass/partials/landing-page/_header-section.scss";
 
 
 export default class HeaderSection extends React.Component {

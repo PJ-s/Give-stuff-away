@@ -1,5 +1,5 @@
 import React from "react";
-import "./info-box.scss";
+import "../../../../sass/partials/landing-page/_info-box.scss";
 
 
 export default class InfoBox extends React.Component {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./foundations.scss";
+import "../../../sass/partials/landing-page/_foundations.scss";
 import {Element} from "react-scroll";
 
 export default class Foundations extends React.Component {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./contact.scss";
+import "../../../sass/partials/landing-page/_contact.scss";
 import {Element} from "react-scroll";
 
 export default class Contact extends React.Component {
