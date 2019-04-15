@@ -36,10 +36,23 @@
   @include large-button;
 }
 
+
+
 .header-section-call-to-action button:first-child {
   padding: 0 20px;
+
+  &:hover {
+
+    cursor: pointer;
+    background: $page-color-second;
+  }
 }
 
 .header-section-call-to-action button:last-child {
   padding: 0 10px;
+}
+
+.cta-link {
+  text-decoration: none;
+  color: $font-color-main;
 }

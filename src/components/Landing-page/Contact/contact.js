@@ -3,10 +3,6 @@ import "../../../sass/partials/landing-page/_contact.scss";
 import {Element} from "react-scroll";
 
 export default class Contact extends React.Component {
-   constructor(props) {
-   super(props);
-
-   }
    render(){
      return (
          <Element name="Contact">

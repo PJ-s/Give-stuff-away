@@ -4,22 +4,18 @@ import { Link } from "react-router-dom";
 
 
 export default class LogInPanel extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className="container">
                 <div className="page-login">
                     <ul>
                         <li>
-                            <a>
+                            <a href="#">
                                 Zaloguj
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="#">
                                 Załóż konto
                             </a>
                         </li>

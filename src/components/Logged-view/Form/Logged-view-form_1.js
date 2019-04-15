@@ -85,7 +85,7 @@ export default class LoggedViewForm_1 extends React.Component {
                      <span className="checkmark"></span>
                  </label>
                  <button type="submit">
-                     <Link to={`/summary/${this.state.items}`}>
+                     <Link to={`/summary/${this.state.items}`} className="form-send-link">
                          Dalej
                      </Link>
                  </button>

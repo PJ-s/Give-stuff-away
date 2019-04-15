@@ -55,4 +55,16 @@
 
 .form-one button {
   @include form-button;
+
+  &:hover {
+    cursor: pointer;
+    background: $page-color-second;
+  }
+}
+
+.form-send-link {
+  text-decoration: none;
+  color: #000000;
+
+
 }

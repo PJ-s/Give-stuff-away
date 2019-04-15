@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../../sass/partials/landing-page/_header-section.scss";
+import {Link} from "react-router-dom"
 
 
 export default class HeaderSection extends React.Component {
@@ -13,8 +14,12 @@ export default class HeaderSection extends React.Component {
                     <div className="header-section-decoration"></div>
                 </div>
                 <div className="header-section-call-to-action">
-                    <button>Oddaj rzeczy</button>
-                    <button>Zorganizuj zbiórkę</button>
+                <button>
+                    <Link to="/LoggedView" className="cta-link">
+                        Oddaj rzeczy
+                    </Link>
+                </button>
+                <button>Zorganizuj zbiórkę</button>
                 </div>
             </div>
         )
